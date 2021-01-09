@@ -15,12 +15,13 @@
 
 void ledBlink();//Must declare function before noDelay, function can not take arguments
 
-MyDelay LEDtime(1000, ledBlink);//Creats a noDelay varible set to 1000ms, will call ledBlink function
+MyDelay LEDtime(1000, ledBlink);//Creats a MyDelay varible set to 1000ms, will call ledBlink function
 int LEDpin = 13;
 int ledState = LOW;
 
 void setup() {
   pinMode(LEDpin, OUTPUT);
+  LEDtime.start();
 }
 
 void loop() {

@@ -13,12 +13,13 @@
 
 #include<MyDelay.h>
 
-MyDelay LEDtime(1000);//Creats a noDelay varible set to 1000ms
+MyDelay LEDtime(1000);//Creats a MyDelay varible set to 1000ms
 int LEDpin = 13;
 int ledState = LOW;
 
 void setup() {
   pinMode(LEDpin, OUTPUT);
+  LEDtime.start();
 }
 
 void loop() {
