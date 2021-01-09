@@ -2,6 +2,8 @@
 /*!
     @file     MyDelay.h
     @author   Marshall G Gates
+
+    
     
 	@section LICENSE
 
@@ -27,6 +29,8 @@
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	THE SOFTWARE.
 
+  Based on noDelay library by Mario Avenoso of mtechcreations.com
+  http://mario.mtechcreations.com/programing/nodelay-arduino-library/
 */
 /**************************************************************************/
 
